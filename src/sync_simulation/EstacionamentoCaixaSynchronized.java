@@ -1,4 +1,4 @@
-package sync;
+package sync_simulation;
 
 public class EstacionamentoCaixaSynchronized {
     private static final int preco = 5;

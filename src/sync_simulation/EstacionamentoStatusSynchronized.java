@@ -1,4 +1,4 @@
-package sync;
+package sync_simulation;
 
 public class EstacionamentoStatusSynchronized {
     private int numVeiculos;

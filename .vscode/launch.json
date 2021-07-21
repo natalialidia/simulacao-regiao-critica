@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "sync_simulation.Main",
+            "projectName": "simulacao-regiao-critica_bb4257bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "simulation.Main",
             "projectName": "simulacao-regiao-critica_bb4257bb"
         },

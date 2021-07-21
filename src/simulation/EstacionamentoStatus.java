@@ -1,6 +1,5 @@
 package simulation;
 
-// REGIÃO CRÍTICA
 public class EstacionamentoStatus {
     private int numVeiculos;
     private EstacionamentoCaixa caixa;
@@ -11,16 +10,16 @@ public class EstacionamentoStatus {
     }
 
     public void veiculoEntra() {
-        numVeiculos++;
+        numVeiculos++; // REGIÃO CRÍTICA!
     }
 
     public void veiculoSai() {
-        numVeiculos--;
+        numVeiculos--; // REGIÃO CRÍTICA!
         this.caixa.pagamento();
     }
 
     public int getNumVeiculos() {
-        return this.numVeiculos;
+        return this.numVeiculos; // REGIÃO CRÍTICA!
     }
 
 }
